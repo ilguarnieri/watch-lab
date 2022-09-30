@@ -10,8 +10,8 @@
                 <!-- FORM INPUT -->
                 <form>
                     <div class="form-send d-flex gap-3">
-                        <input type="email" class="input-email flex-grow-1" id="inputEmail" aria-describedby="emailHelp" placeholder="type your email">
-                        <button type="submit" class="btn-send">ok</button>
+                        <input type="email" class="input-email flex-grow-1" id="inputEmail" aria-describedby="emailHelp" placeholder="type your email" v-model="inputSearch">
+                        <button type="submit" class="btn-send" :class="inputSearch == '' ? 'inactive' : ''" :disabled="!inputSearch">ok</button>
                     </div>
                 </form>
             </div>
@@ -25,7 +25,13 @@
 
 <script>
     export default {
-        name: 'SendEmail'
+        name: 'SendEmail',
+
+        data(){
+            return{
+                inputSearch: '',
+            }
+        }
     }
 </script>
 
@@ -92,10 +98,14 @@
                         background-color: white;
                         color: $beige;
                     }
+                    
+                    &.inactive{
+                        background-color: rgba($color: #000000, $alpha: 0.1);
+                        opacity: 0.4;
+                        color: white;
+                    }
                 }
             }
-
-
         }
     }
 }
