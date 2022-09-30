@@ -6,7 +6,7 @@
             <div class="footer-wrapper">
                 <!-- LOGO -->
                 <div class="logo mb-4">
-                    <h1 class="logo text-uppercase">Watch/Lab</h1>
+                    <h1 class="logo text-uppercase ">Watch/Lab</h1>
                 </div>
 
                 <!-- LINK WRAPPER -->
