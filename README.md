@@ -19,12 +19,12 @@
 </div>
 
 ## ⛏️ Tecnologies, addons and plugins used
-- [HTML](https://html.com);
-- [SASS](https://sass-lang.com/);
-- [JavaScript](https://devdocs.io/javascript/);
-- [Vue.js](https://vuejs.org/);
-- [Bootstrap](https://getbootstrap.com/);
-- [FontAwesome](https://fontawesome.com/);
+- [HTML](https://html.com)
+- [SASS](https://sass-lang.com/)
+- [JavaScript](https://devdocs.io/javascript/)
+- [Vue.js](https://vuejs.org/)
+- [Bootstrap](https://getbootstrap.com/)
+- [FontAwesome](https://fontawesome.com/)
 
 ## 👨‍💻 Authors
 - [@ilguarnieri](https://www.flowcode.com/page/ilguarnieri)
