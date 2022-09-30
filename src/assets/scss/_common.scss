@@ -1,0 +1,97 @@
+@import './_color.scss';
+@import './_font.scss';
+
+
+/* DELETE CROSS INPUT IN FOCUS */
+@mixin deleteCrossInput {
+    input[type="search"]::-webkit-search-decoration,
+    input[type="search"]::-webkit-search-cancel-button,
+    input[type="search"]::-webkit-search-results-button,
+    input[type="search"]::-webkit-search-results-decoration { display: none; }    
+}
+
+
+/* SCROLL-BAR STYLE */
+::-webkit-scrollbar {
+    width: 10px;
+}
+/* MANIGLIA DI SCORRIMENTO */
+::-webkit-scrollbar-thumb {
+    background: #AE9F8A;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+
+/* STYLE OVERLAY */
+@mixin overlay {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba($color: #000000, $alpha: 0.4);
+}
+
+
+/* STYLE BTN */
+@mixin watchBtn {
+    user-select: none;
+    width: 260px;
+    height: 55px;
+    background-color: transparent;
+    border: 1px solid $beige;
+    color: $btn-beige;
+    font-family: "Miller";
+    transition: all 300ms ease-in-out;
+
+    &:hover{
+        background-color: rgba($color: $beige, $alpha: 1.0);
+        color: $white;
+        letter-spacing: 3px;
+    }
+
+    a{
+        color: currentColor;
+    }
+}
+
+
+/* STYLE TITLE */
+@mixin titleArticle {
+    font-family: "Miller";
+    font-size: max(45px, 3.7vw);
+}
+
+
+/* STYLE TEXT BODY */
+@mixin textBody {
+    font-family: 'Miller';
+    line-height: 35px;
+    font-size: 19px;
+    color: $gray;
+}
+
+
+/* HEIGHT SQUARE */
+@mixin heightSquare {
+    max-height: 670px;
+}
+
+
+/* STYLE GENERIC BTN */
+@mixin w-btn{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 0;
+    font-family: "Miller"; 
+}
+
+
+/* STYLE LOGO */
+@mixin logo{ 
+    font-family: 'MontBold';
+    color: $white;    
+    a{
+        color: currentColor;
+    }    
+}
