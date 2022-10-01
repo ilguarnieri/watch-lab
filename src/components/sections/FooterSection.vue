@@ -29,7 +29,7 @@
                     <div class="col-12 col-sm-6 order-sm-3">
                         <ul>
                             <li><router-link to="/press">Press</router-link></li>
-                            <li><router-link to="/Contacts">Contacts</router-link></li>
+                            <li><router-link to="/contacts">Contacts</router-link></li>
                             <li><router-link to="/privacy-policy">Privacy Policy</router-link></li>
                             <li><router-link to="/search">Search</router-link></li>  
                         </ul>                  
