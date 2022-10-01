@@ -1,7 +1,7 @@
 <template>
     <div class="w-container page-wrapper d-flex flex-column justify-content-center align-items-center">
 
-        <div class="error-container d-flex flex-column align-items-center position-relative">
+        <div class="error-container d-flex flex-column align-items-center position-relative m-5">
             <h4 class="caption text-uppercase text-center">Oops! Page not Found</h4>
             <img class="pt-3" src="../assets/img/logo.png" alt="img">
             <p class="subtitle col-9 text-center">We are sorry, but the page you requested was not found!</p>
@@ -28,7 +28,7 @@
 @import '../assets/scss/_common.scss';
 
 .page-wrapper{
-    height: calc(100vh - 75px);
+    min-height: calc(100vh - 75px);
 
     .error-container{
         font-family: 'MontBold';

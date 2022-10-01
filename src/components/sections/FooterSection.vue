@@ -20,26 +20,26 @@
                     </div>
                     <div class="col-12 col-sm-6 order-sm-1 order-lg-2">
                         <ul>
-                            <li><a href="#">About us</a></li>
-                            <li><a href="#">Brand</a></li>
-                            <li><a href="#">Projects</a></li>
-                            <li><a href="#">Magazine</a></li>
+                            <li><router-link to="/aboutus">About us</router-link></li>
+                            <li><router-link to="/brand">Brand</router-link></li>
+                            <li><router-link to="/projects">Projects</router-link></li>
+                            <li><router-link to="/magazine">Magazine</router-link></li>
                         </ul>                    
                     </div>
                     <div class="col-12 col-sm-6 order-sm-3">
                         <ul>
-                            <li><a href="#">Press</a></li>
-                            <li><a href="#">Contacts</a></li>
-                            <li><a href="#">Privacy Polocy</a></li>
-                            <li><a href="#">Search</a></li>  
+                            <li><router-link to="/press">Press</router-link></li>
+                            <li><router-link to="/Contacts">Contacts</router-link></li>
+                            <li><router-link to="/privacy-policy">Privacy Policy</router-link></li>
+                            <li><router-link to="/search">Search</router-link></li>  
                         </ul>                  
                     </div>
                     <div class="col-12 col-sm-6 order-sm-2 order-lg-4">
                         <ul>
                             <li><a href="tel:+393929133937">T. +39 392 9133937</a></li>
                             <li><a href="mailto:info@watch-lab.it">M. info@watch-lab.it</a></li>
-                            <li class="text-social text-uppercase"><a href="#">Facebook</a></li>                 
-                            <li class="text-social text-uppercase"><a href="#">Instagram</a></li>
+                            <li class="text-social text-uppercase"><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>                 
+                            <li class="text-social text-uppercase"><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
                         </ul>
                     </div>
                 </div>

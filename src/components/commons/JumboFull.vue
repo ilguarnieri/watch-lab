@@ -133,6 +133,7 @@
 
 .jumbo{
     height: calc(100vh - 75px);
+    min-height: 380px;
     
     /* SET CONTAINER WITH ALL SLIDES */
     .all-slides{
